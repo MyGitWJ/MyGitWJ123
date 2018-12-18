@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>主页</title>
+		<link rel="stylesheet" href="css/jquery.fullPage.css">
+		<link rel="stylesheet" type="text/css" href="css/cssformain.css"/>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/jquery.fullPage.min.js"></script>
+		<script>				
+			$(function(){
+				$('#dowebok').fullpage({
+					sectionsColor:['#fff', '#fff', '#fff', '#fff', '#fff'],
+//					navigation: true,
+//    				navigationTooltips: ['首页','阅读', '音乐', '视频', '商店'],
+      				anchors:['one', 'two', 'three', 'four', 'five'],
+      				menu:'#menu'
+				});
+			});
+		</script>
+		<style type="text/css">
+			#booksize {
+				width:900px;border-radius:10px; margin:50px auto;
+			}
+		</style>
+	</head>
+	<body>
+		<ul id='menu'>
+			<li data-menuanchor="page1" class="zhuye current">
+				<a href="#one">
+					<span >主页 <i class="ss-navigatedown"></i></span>
+					<span >主页 <i class="ss-navigatedown"></i></span>
+					<span >主页 <i class="ss-navigatedown"></i></span>
+					<span >主页 <i class="ss-navigatedown"></i></span>
+				</a>
+			</li>
+			<li data-menuanchor="page2" class="tupian">
+				<a href="#two">
+					<span >阅读 <i class="ss-navigatedown"></i></span>
+					<span >阅读 <i class="ss-navigatedown"></i></span>
+					<span >阅读 <i class="ss-navigatedown"></i></span>
+					<span >阅读 <i class="ss-navigatedown"></i></span>
+				</a>
+			</li>
+			<li data-menuanchor="page3" class="yinyue">
+				<a href="#three">
+					<span >音乐 <i class="ss-navigatedown"></i></span>
+					<span >音乐 <i class="ss-navigatedown"></i></span>
+					<span >音乐 <i class="ss-navigatedown"></i></span>
+					<span >音乐 <i class="ss-navigatedown"></i></span>
+				</a>
+			</li>
+			<li data-menuanchor="page4" class="shipin">
+				<a href="#four">
+					<span >视频 <i class="ss-navigatedown"></i></span>
+					<span >视频 <i class="ss-navigatedown"></i></span>
+					<span >视频 <i class="ss-navigatedown"></i></span>
+					<span >视频 <i class="ss-navigatedown"></i></span>
+				</a>
+			</li>
+			<li data-menuanchor="page5" class="shangdian">
+				<a href="#five">
+					<span >商店 <i class="ss-navigatedown"></i></span>
+					<span >商店 <i class="ss-navigatedown"></i></span>
+					<span >商店 <i class="ss-navigatedown"></i></span>
+					<span >商店 <i class="ss-navigatedown"></i></span>
+				</a>
+			</li>
+		</ul>
+		
+		<div id="dowebok">
+			<div class="section" id="page1">
+				<img src="img/古风古韵4.png" />
+			</div>
+			<div class="section" id="page2">
+				<div id="zhuyao" >
+					<font size="8" style="font-family: 华文行楷;" >
+						热门小说推荐:
+					</font>
+				</div>
+				<img src="img/陋室铭.png" width="90%" style="position: relative;"/>
+				<div class="daoyu">
+					<font size="5"  style="font-family:华文行楷 " >去读一读</font>
+				</div>
+				<a href="read.html" target="_blank">
+				<img src="img/连接箭头.png" width="50px" height="50px" border="0" />
+				<img src="img/连接箭头.png" width="50px" height="50px" border="0" />
+				</a>
+			</div>
+			<div class="section" id="page3">
+				<div id="zhuyao" >
+					<font size="8" style="font-family: 华文行楷;" >
+						古代乐器欣赏:
+					</font>
+				</div>
+				<img src="img/音乐乐器.png" width="90%" style="position: relative;top: 100px;"/>
+				<div class="jieshao" id="paixiao" style="position: absolute;top: 620px;left: 200px;font-size: 40px;font-family: 华文行楷, 仿宋;"><font>编钟</font></div>
+				<div class="jieshao" id="paixiao" style="position: absolute;top: 620px;left: 630px;font-size: 40px;font-family: 华文行楷, 仿宋;"><font>排箫</font></div>
+				<div class="jieshao" id="paixiao" style="position: absolute;top: 620px;left: 920px;font-size: 40px;font-family: 华文行楷, 仿宋;"><font>古筝</font></div>
+				<div class="jieshao" id="paixiao" style="position: absolute;top: 620px;left: 1220px;font-size: 40px;font-family: 华文行楷, 仿宋;"><font>琵琶</font></div>
+				
+				<div class="daoyu">
+					<font size="5" style="font-family:华文行楷 " >去听一听</font>
+				</div>
+				<a href="music-1.html" target="_blank">
+				<img src="img/连接箭头.png" width="50px" height="50px" border="0" />
+				<img src="img/连接箭头.png" width="50px" height="50px" border="0" />
+				</a>
+			</div>
+			<div class="section" id="page4">
+				<div id="zhuyao" >
+					<font size="8" style="font-family: 华文行楷;" >
+						热门短视频介绍:
+					</font>
+				</div>
+				<div class="daoyu">
+					<font size="5" style="font-family:华文行楷 " >去看一看</font>
+				</div>
+				<a href="movie.html" target="_blank">
+				<img src="img/连接箭头.png" width="50px" height="50px" border="0" />
+				<img src="img/连接箭头.png" width="50px" height="50px" border="0" />
+				</a>
+				<div class="wrapper">
+					<ul class="stage">
+						<li class="scene">
+							<div class="movie">
+								<div class="poster"></div>
+								<div class="info">
+									<header>
+										<h1>红豆</h1>
+										<!--<span class="year">1946</span>
+										<span class="rating">PG</span>-->
+										<span class="duration">2 minutes</span>
+									</header>
+									<p>
+										讲述了一段因相思“红豆”而结缘的爱情悲剧。这部动画为上海嘉定800年重点项目之一的“中国唱诗班”系列动画第二集，短片中，寒门学子王初桐与出身名门贵族的六娘从小情投意合，以红豆定情，然而六娘最终嫁作他人妇，无法厮守。
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="scene">
+							<div class="movie">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>连理枝</h1>
+										<!--<span class="year">1946</span>
+										<span class="rating">PG</span>-->
+										<span class="duration">4 minutes</span>
+								</header>
+								<p>
+									《连理枝》，是好莱坞动画人、独立动画导演——刘婷婷，在莱卡（Laika Sstudio）工作之余，花了近两年时间，在没有任何外部资金的情况下，完成的一个4分钟左右的动画短片并且入围了入围了2019年奥斯卡最佳动画短片。动画采用了中国风的形式，讲述了古代中国一位公主与宦官之间的初恋故事。
+								</p>
+							</div>
+							</div>
+						</li>
+						<li class="scene">
+							<div class="movie">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>长生殿</h1>
+										<!--<span class="year">1946</span>
+										<span class="rating">PG</span>-->
+										<span class="duration">4 minutes</span>
+								</header>
+								<p>
+									《长生殿》重点描写了唐朝天宝年间皇帝昏庸、政治腐败给国家带来的巨大灾难，导致王朝几乎覆灭。剧本虽然谴责了唐玄宗的穷奢极侈，但同时又表现了对唐玄宗和杨玉环之间的爱情的同情，间接表达了对明朝统治的同情，还寄托了对美好爱情的理想。
+								</p>
+							</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="section" id="page5">
+				<img src="img/商店.png"  style="position: absolute;left: 10%;top: 5%;" width="80%" height="90%"/>
+				<div class="daoyu">
+					<font size="5" style="font-family:华文行楷 " >去逛一逛</font>
+				</div>
+				<a href="sale.html" target="_blank">
+					<img src="img/连接箭头.png" width="50px" height="50px" border="0" />
+					<img src="img/连接箭头.png" width="50px" height="50px" border="0" />
+				</a>
+				<div id="kuo">
+					<span style="font-family:arial;">Copyright &copy;古风古韵2018</span>
+					<a href="banquan.html" target="_blank">All Rights Reserved</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
