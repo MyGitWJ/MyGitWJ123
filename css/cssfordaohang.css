@@ -1,0 +1,83 @@
+@charset "utf-8";
+/*reset*/
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0,0,0,0);word-wrap: break-word;font-size: inherit;line-height: inherit;overflow: visible;}
+header,footer,section,article,aside,nav,address,figure,figcaption,menu,details{display:block;}
+.f-cb{height: 0;}
+.f-cb:after{display:block;content:" ";height:0;visibility:hidden;clear: both;}
+.f-ib{display:inline-block;}
+.f-din{display:inline;}
+.f-dn{display:none;}
+.f-db{display:block;}
+.f-fl{float:left;}
+.f-fr{float:right;}
+.f-fwn{font-weight:normal;}
+.f-fwb{font-weight:bold;}
+.f-tal{text-align:left;}
+.f-tac{text-align:center;}
+.f-tar{text-align:right;}
+.f-oh{overflow: hidden;zoom: 1;clear: both;}
+.f-tdn{text-decoration: none!important;}
+.f-vam,.f-vama *{vertical-align:middle;}
+.f-wsn{word-wrap:normal;white-space:nowrap;}
+.f-pre{overflow:hidden;text-align:left;white-space:pre-wrap;word-wrap:break-word;word-break:break-all;}
+.f-wwb{white-space:normal;word-wrap:break-word;word-break:break-all;}
+.f-ti{overflow:hidden;text-indent:-30000px;}
+.f-lhn{line-height:normal;}
+.f-toe{overflow:hidden;word-wrap:normal!important;white-space:nowrap;text-overflow:ellipsis;}
+.f-usn{-webkit-user-select:none;user-select:none;}
+.f-bsb{-webkit-box-sizing:border-box;box-sizing:border-box;}
+.f-cp{cursor: pointer}
+
+/*滚动条美化*/
+
+
+a, a:hover, a:focus, a:visited {
+  text-decoration: none;
+}
+
+.daohang{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	top: 0px;
+	}
+
+.daohang ul{
+	float: left; margin-left: 40px;
+}
+
+.daohang li{
+	list-style: none;
+	position: relative;
+	float: left;
+	left: 70%;
+	height: 60px;
+	width: 140px;
+	background-color: yellow;
+}
+
+.daohang ul li a{
+	display: block;
+	height: 100%;
+}
+
+.daohang ul li a:hover{
+	background-color: #000000;
+}
+.daohang li a:active{
+	color: white;
+}
+.daohang li font{
+	position: relative;
+	top: 35%;
+	left: 35%;
+	font-size: 15px;
+}
+
+.sousuo{
+	position: absolute;
+	top: 20%;
+	left: 75%;
+}
+
+

@@ -1,0 +1,118 @@
+#jieshao{
+	position: absolute;
+	top: 370px;
+	left: 440px;
+	z-index: -20;
+}
+
+.gedan{
+	position: absolute;
+	top: 125px;
+}
+
+.gedan img{
+	position: relative;
+}
+
+.gedan li{
+	height: 44px;
+	/*display: block;*/
+}
+/*列表条*/
+
+.gedan li a{
+	/*box-sizing: border-box;*/
+	height: 44px;
+	display: block;
+	width: 245;
+}
+/*超链接*/
+
+.jiaobiao{
+	position: absolute;
+	top: 104%;
+	left: 70%;
+}
+/*查看全部的调整*/
+
+.gekuai{
+	/*border: solid;*/
+	height: 44px;
+	width: 350px;
+}
+
+.gekuai_d{
+	background-color: #f5f5f7;
+}
+
+.geikuai_s{
+	background-color: #FAFAFA;
+}
+
+.gekuai a:hover{
+	background-color: #ebeced;
+}
+.gekuai a:active{
+	color: white;
+}
+
+.gekuai p{
+	position: relative;
+	top:20%;
+	left: 20%;
+}
+
+#gedan1{
+	position: absolute;
+	top: 800px;
+	left: 200px;
+}
+
+#gedan2{
+	position: absolute;
+	top: 800px;
+	left: 600px;
+}
+
+#gedan3{
+	position: absolute;
+	top: 800px;
+	left: 1000px;
+}
+
+#gedan4{
+	position: absolute;
+	top: 1400px;
+	left: 200px;
+}
+
+#gedan5{
+	position: absolute;
+	top: 1400px;
+	left: 600px;
+}
+
+#gedan6{
+	position: absolute;
+	top: 1400px;
+	left: 1000px;
+}
+
+
+.backg_gedan{
+	position: absolute;
+	height: 525px;
+	width: 350px;
+	background-color: #F5F5F7;
+	/*border: solid;*/
+}
+
+#kuo{
+	position: absolute;
+	top: 2200px;
+	left: 35%;
+	height: 50px;
+}
+#kuo a{
+	color: black;
+}

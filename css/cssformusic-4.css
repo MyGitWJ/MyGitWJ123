@@ -1,0 +1,105 @@
+body{
+	overflow-x: hidden;
+}
+
+a{
+	color: black;
+}
+a:hover{
+	text-decoration: underline;
+}
+.biao-daoyu{
+	position: relative;
+	left: 5%;
+	top: 2%;
+}
+
+.biao{
+	position: relative;
+	top: 100px;
+	left: 30%;
+	height: 500px;
+	width: 800px;
+	border: 1px;
+	border-bottom-width: thin;
+	/*border-top: none;*/
+	/*border-bottom: none;*/
+	background-color: white;
+}
+
+table td{
+	width: 160px;
+	word-break:keep-all;     /* 不换行 */
+    white-space:nowrap;  
+}
+
+table tr td img{
+	position: relative;
+	border: 2px;
+	left: 10%;
+}
+table tr td font{
+	position: relative;
+	left: 10%;
+}
+
+#biao2{
+	height: 450px;
+}
+
+
+#biao3{
+	height: 1000px;
+}
+#biao3 table ul{
+	position: relative;
+	left: 40%;
+}
+#biao3 table td{
+	width: 160px;
+}
+#biao3 table ul li{
+	position: relative;
+	top: 20px;
+	height: 50px;
+}
+#biao4{
+	position: absolute;
+	top: 13.4%;
+	left: 18.5%;
+	width: 180px;
+	height: 2000px;
+	background-color: #F9F9F9;
+}
+#biao4 ul li{
+	list-style: circle;
+}
+#biao4 font{
+	position: relative;
+	left: 30%;
+	top: 30px;
+	font-size: 25px;
+}
+#biao4 ul{
+	position: relative;
+	top: 2%;
+	left: 30%;
+}
+#biao5{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	left: -0%;
+	background-color: #f9f9f9;
+}
+
+#kuo{
+	position: relative;
+	left: 40%;
+	top: 50%;
+	
+}
+
+ul li{
+	list-style: none;
+}

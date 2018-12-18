@@ -1,0 +1,60 @@
+.neirong{
+	position: absolute;
+	background-color: white;
+	top: 8%;
+	left: 25%;
+	/*border: solid;*/
+	height: 1420px;
+	width: 800px;
+}
+#dibu{
+	position: absolute;
+	/*border: solid;*/
+	height: 100px;
+	width: 100%;
+	top: 1480px;
+	background-color: #f2f2f2;
+}
+
+#biaotou{
+	position: relative;
+	top: 50px;
+	left: 20px;
+}
+
+table{
+	position: relative;
+	top: 50px;
+}
+
+table td{
+	width: 160px;
+	word-break:keep-all;     /* 不换行 */
+    white-space:nowrap;  
+}
+
+table td img{
+	position: relative;
+	left: 10%;
+}
+table td a{
+	position: relative;
+	color: black;
+	left: 35%;
+}
+table td a:hover{
+	text-decoration: underline;
+}
+
+#xian4{
+	position: relative;
+	top: 50px;
+}
+
+#kuo{
+	position: relative;
+	left: 40%;
+	top: 50%;
+	
+}
+
